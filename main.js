@@ -10,7 +10,7 @@ function draw() {
 }
 function Start() {
     objectdetector=ml5.objectDetector("cocossd",modeloaded)
-    document.getElementById("Status").innerHTML = "Status: Identifying Objects"
+    document.getElementById("status").innerHTML = "Status: Identifying Objects"
 }
 function modeloaded() {
     console.log("modelisLoaded")
