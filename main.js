@@ -8,7 +8,7 @@ function setup() {
 function draw() {
     image(video,0,0,350,350)
 }
-function Start() {
+function start() {
     objectdetector=ml5.objectDetector("cocossd",modeloaded)
     document.getElementById("status").innerHTML = "Status: Identifying Objects"
 }
